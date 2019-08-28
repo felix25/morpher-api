@@ -5,16 +5,7 @@ import MyButtom from './buttom.view.js'
 import Label from './textCount.view.js'
 import { Flow } from '../useFlow.js'
 import React from 'react'
-//import CardList from '../components/card-list/card-list.component'
-/*export default function AppLogic(props) {
-  //console.log(ApiData.dataGiphy)
-  return (
-    <Flow>
-      <App {...props} />
-      <NewCard  label="Estes es mi texto"/>
-    </Flow>
-  )
-}*/
+
 const numberPage = 12;
 class AppLogic extends React.Component{
   constructor(){
@@ -48,7 +39,7 @@ changePage =(event)=>{
       <Flow>
       <App/>
       <List ancho="43vw">
-        <Label count={`gif ${this.state.paginate + numberPage} of ${this.state.totalItems}`}/>
+        <Label count={`Gif ${this.state.paginate + numberPage} of ${this.state.totalItems}`}/>
         <MyButtom onClick={this.changePage} disabled={this.state.disable} label="prev" id="prev"/>
         <MyButtom onClick={this.changePage} label="next" id="next"/>
       </List>
