@@ -1,6 +1,9 @@
+// @view
 import React from 'react';
-export const Card=()=>(
+export const  Card =props=>(
     <div className="card">
-        <h1>My Giphy</h1>
+         <figure>
+            <img src={props.giphy.images.fixed_height.url} />
+        </figure>
     </div>
 )
