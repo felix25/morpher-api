@@ -1,0 +1,12 @@
+App View
+flow together
+  Vertical
+  flow together
+  alignItems center
+  flexBasis auto
+  flexGrow 1
+  flexShrink 1
+  justifyContent center
+    Text
+    fontSize 18
+    text Hello Views Tools Bienvenidos a mi pirmer examen
