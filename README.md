@@ -1,4 +1,4 @@
-This project was with the api of giphy and view
+This project was with the api of giphy and framework view
 
 ## Available Scripts
 
