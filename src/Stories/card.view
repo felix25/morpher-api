@@ -1,6 +1,17 @@
 Card View
 Vertical
-  Vertical
-    Image
-      source <imgUrl
-      width 20%
+background #95dada
+paddingLeft 25
+paddingRight 25
+paddingTop 25
+paddingBottom 25
+marginBottom 25
+borderBottomLeftRadius 5
+borderBottomRightRadius 5
+borderTopLeftRadius 5
+borderTopRightRadius 5
+width 30%
+border 1
+  Image
+    source <imgUrl
+    width 100%

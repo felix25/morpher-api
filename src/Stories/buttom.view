@@ -1,3 +1,23 @@
-ButtonAsDiv Vertical
+Button Vertical
+  backgroundColor #444648
+  paddingLeft 2
+  paddingRight 2
+  paddingTop 2
+  paddingBottom 2
+  marginBottom 2
+  color white
+  width 35%
+  height 20px
+  alignItems center
+  borderBottomLeftRadius 5
+  borderBottomRightRadius 5
+  borderTopLeftRadius 5
+  borderTopRightRadius 5
+  cursor pointer
+  disabled <disabled
   onClick <
-  Label Text<info
+  Text
+  id <label
+  text <label
+  textTransform uppercase
+  fontSize 15
